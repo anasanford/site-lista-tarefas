@@ -1,5 +1,5 @@
 :root {
-    --green: #00FF00;
+    --purple: #f9d2fa;
     --white: #ffffff;
     --black: #000000;
 }
@@ -11,6 +11,12 @@
 
 body {
     background: var(--bg);
+}
+
+#titulo-principal {
+    background-color: white;
+    color: var(--purple);
+    text-align: center;
 }
 
 ul {
@@ -26,7 +32,7 @@ li {
 }
 
 .light-theme {
-    --bg: var(--green);
+    --bg: var(--purple);
     --fontColor: var(--black);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
@@ -34,15 +40,15 @@ li {
 
 .dark-theme {
     --bg: var(--black);
-    --fontColor: var(--green);
+    --fontColor: var(--purple);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
 }
 
 .btn {
     position: absolute;
-    top: 20px;
-    left: 250px;
+    top: 100px;
+    right: 50px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
